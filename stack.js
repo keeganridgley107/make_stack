@@ -23,6 +23,7 @@ that.push = function(data){
   return data;
   };
 that.pop = function(){
+ return that.myStack.pop()
 
 }
 
